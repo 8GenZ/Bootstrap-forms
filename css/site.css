@@ -14,3 +14,17 @@ main {
     flex-shrink: 0;
  }
  /* footer code above*/
+
+.containerLogo {
+    border: solid 1px;
+}
+
+.containerFluid {
+    border: solid 1px;
+}
+
+@media print {
+    .print-none {
+        display:none
+    }
+}
